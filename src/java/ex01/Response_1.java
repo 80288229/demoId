@@ -4,21 +4,20 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
-import java.nio.Buffer;
 
-public class Response {
+public class Response_1 {
 
   private static final int BUFFER_SIZE = 1024;
 
-  Request request;
+  Request_1 request;
 
   OutputStream output;
 
-  public Response(OutputStream output) {
+  public Response_1(OutputStream output) {
     this.output = output;
   }
 
-  public void setRequest(Request request) {
+  public void setRequest(Request_1 request) {
     this.request = request;
   }
 

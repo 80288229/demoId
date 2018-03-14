@@ -3,11 +3,11 @@ package ex01;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class Request {
+public class Request_1 {
 private InputStream input;
 private String uri;
 
-  public Request(InputStream input) {
+  public Request_1(InputStream input) {
     this.input = input;
   }
 

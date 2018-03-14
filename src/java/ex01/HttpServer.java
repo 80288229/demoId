@@ -34,9 +34,9 @@ public class HttpServer {
         socket = serverSocket.accept();
         input = socket.getInputStream();
         output = socket.getOutputStream();
-        Request request = new Request(input);
+        Request_1 request = new Request_1(input);
         request.parse();
-        Response response = new Response(output);
+        Response_1 response = new Response_1(output);
         response.setRequest(request);
         response.sendStaticResource();
         socket.close();
